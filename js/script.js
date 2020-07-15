@@ -1,4 +1,4 @@
-var parolaInserita = prompt("Inserisci una parola");
+var parolaInserita = prompt("Inserisci una parola").toUpperCase();
 var parolaInversa = ""; // Inizializzata var vuota.
 checkPalindromo(parolaInserita); //invocata funzione con il nome a essa dato; A dispetto dell'argomento successivamente assegnato inserisco la var a me necessaria.
 
